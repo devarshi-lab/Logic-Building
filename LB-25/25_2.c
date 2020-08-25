@@ -17,11 +17,11 @@ typedef int BOOL;
 
 BOOL ChkAlphaCapital(char cValue)
 {
-	if((cValue >= 65 && cValue <=90))
+	if((cValue >= 'A' && cValue <='Z'))
 	{
 		return YES;
 	}
-	else if((cValue >= 97 && cValue <= 122))
+	else if((cValue >= 'a' && cValue <='z'))
 	{
 		return NO;
 	}
