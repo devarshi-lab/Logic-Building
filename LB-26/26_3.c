@@ -16,14 +16,14 @@ output :
 void Display(char cValue)
 {
 	int i = 0;
-	if(cValue >= 65 && cValue <= 90)
+	if(cValue >= 'A' && cValue <= 'Z')
 	{
 		for(i = cValue;i<=90;i++)
 		{
 			printf("%c",i);
 		}
 	}
-	else if(cValue >= 97 && cValue <= 122)
+	else if(cValue >= 'a' && cValue <= 'z')
 	{
 		for(i = cValue;i>=97;i--)
 		{
