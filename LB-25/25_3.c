@@ -16,7 +16,7 @@ typedef int BOOL;
 
 BOOL ChkDigit(char cValue)
 {
-	if((cValue >= 48 && cValue <= 57))
+	if((cValue >= '1' && cValue <= '9'))
 	{
 		return YES;
 	}
