@@ -16,7 +16,7 @@ typedef int BOOL;
 
 BOOL ChkAlpha(char cValue)
 {
-	if((cValue >= 65 && cValue <=90) || (cValue >= 97 && cValue <= 122))
+	if((cValue >= 'A' && cValue <='Z') || (cValue >= 'a' && cValue <= 'z'))   //OR in ASCII (cValue >= 65 && cValue <=90) || (cValue >= 97 && cValue <= 122)
 	{
 		return TRUE;
 	}
