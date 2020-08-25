@@ -12,11 +12,11 @@ typedef int BOOL;
 
 BOOL ChkAlphaSmall(char cValue)
 {
-	if((cValue >= 97 && cValue <= 122))
+	if((cValue >= 'a' && cValue <='z'))
 	{
 		return YES;
 	}
-	else if((cValue >= 65 && cValue <=90))
+	else if((cValue >= 'A' && cValue <='Z'))
 	{
 		return NO;
 	}
