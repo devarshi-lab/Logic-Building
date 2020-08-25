@@ -16,11 +16,11 @@ Output : %
 
 char ChangeCase(char cValue)
 {
-	if(cValue >= 65 && cValue <=90)
+	if(cValue >= 'A' && cValue <='Z')
 	{
 		return (cValue+32);
 	}
-	else if(cValue >=97 && cValue <= 122)
+	else if(cValue >='a' && cValue <= 'z')
 	{
 		return (cValue -32);
 	}
